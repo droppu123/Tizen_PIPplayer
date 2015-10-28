@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+<title>Video Toggle Player</title>
+
+<!-- youtube api -->
+<script src="./lib/jquery-2.1.4.min.js"></script>
+<script src="./lib/youtube.iframe_api.js"></script>
+<!-- <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script> -->
+<script src="./lib/googleapi_client.js"></script>
+<script src="js/videoSample.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script src="js/main.js"></script>
+</head>
+
+<body onload="init()">
+	<div id="player1"></div>
+	<div id="player2"></div>
+	<canvas id="cover" width="150" height="100"></canvas>
+
+	<div id="searchBox" onclick="showSearchBox(this)">
+		<img id="arrow2" src="./images/arrow2.png"></img>
+		<button id="searchBtn" onclick="getPlaylist(this)">Search</button>
+	</div>
+	<input id="search" type="text" placeholder=" K-pop" />
+
+	<div id="playlist">
+		<div id="listThumbs"></div>
+	</div>
+	<img id="arrow" src="./images/arrow.png" onclick="showListBox()"></img>
+</body>
+</html>
