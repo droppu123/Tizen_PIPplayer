@@ -143,7 +143,7 @@ function togglePlayers() {
 
 // for search playlist
 function googleApiClientReady() {
-	var apiKey = 'AIzaSyBUf47B8LfGpAP2BQsIV8krMljA6x17rqc';
+	var apiKey = 'YOUR_API_KEY';
 	gapi.client.setApiKey(apiKey);
 	gapi.client.load('youtube', 'v3', function() {
 		console.log('google api ready');
