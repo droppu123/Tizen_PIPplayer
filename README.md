@@ -2,10 +2,10 @@
 Samsung Tizen WebApp sample
 :: Picture In Picture video player
 
-0. YouTube API 활용
-1. 좌상단 작은 player 클릭(터치) 시 Video Toggle
-2. 우상단 Search 기능으로 최대 12개 playlist retrieve
-3. Retrieve된 playlist의 thumbnail 클릭(터치) 시 해당 동영상이 메인 player에 로딩됨
-4. 원래 메인 player에서 재생되던 동영상은 PIP player로 넘어감
+0. This app utilizes YouTube API.
+1. You can toggle these two videos by clicking(or touching) the small video player on the top left.
+2. There is a Search Box on the top right corner by which you can search videos of certain query up to 12.
+3. When you click (or touch) one of those retrieved video thumbnails, the corresponding video is played on the main player.
+4. Then the video that was being played on the main player is shifted into the small palyer on the top left.
 
-Demo 동영상: [Demo]PIP_videoplayer.mp4
+Demo Video: [Demo]PIP_videoplayer.mp4
