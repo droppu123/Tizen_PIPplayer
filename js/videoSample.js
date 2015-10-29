@@ -203,11 +203,11 @@ function showListBox() {
 	var arrow = document.getElementById('arrow');
 	if (listHidden) {
 		document.getElementById('playlist').style.top = '200px';
-		arrow.style.top = '170';
+		arrow.style.top = '170px';
 		listHidden = false;
 	} else {
 		document.getElementById('playlist').style.top = '300px';
-		arrow.style.top = '270';
+		arrow.style.top = '270px';
 		listHidden = true;
 	}
 }
